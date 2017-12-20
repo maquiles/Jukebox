@@ -8,7 +8,9 @@ import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
+import { CreateJukeboxComponent } from './components/createJukebox/createJukebox';
 import { HeaderComponent } from './components/header/header';
+import { JukeboxComponent } from './components/jukebox/jukebox';
 import { LoginComponent } from './components/login/login';
 import { NotificationsComponent } from './components/notifications/notifications';
 import { OpenJukeboxesComponent } from './components/openJukeboxes/openJukeboxes';
@@ -24,6 +26,8 @@ import { SavedJukeboxesComponent } from './components/savedJukeboxes/savedJukebo
     OpenJukeboxesComponent,
     ProfileComponent,
     SavedJukeboxesComponent,
+    CreateJukeboxComponent,
+    JukeboxComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,44 @@
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    background-color: #689F38; /* 700 */
+}
+
+header img {
+    float: left;
+    margin-left: 36px;
+}
+
+header h1 {
+    float: left;
+    color: #F1F8E9; /* 50 */
+    font-size: 28px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 36px;
+}
+
+header nav {
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 36px;
+}
+
+header nav a {
+    color: #F1F8E9; /* 50 */
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+header nav a:hover {
+    color: #33691E; /* 900 */
+}
