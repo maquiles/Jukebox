@@ -17,7 +17,7 @@ const appRoutes: Routes = [
     { path: 'notifications', component: NotificationsComponent },
     { path: 'openJukeboxes', component: OpenJukeboxesComponent },
     { path: 'profile', component: ProfileComponent },
-    { path: 'savedJukeboes', component: SavedJukeboxesComponent },
+    { path: 'savedJukeboxes', component: SavedJukeboxesComponent },
 
     // otherwise redirect to home
     { path: '**', redirectTo: '' }

@@ -7,5 +7,10 @@ import { Router } from '@angular/router';
     styleUrls: ['./login.css']
 })
 export class LoginComponent {
-    constructor() {}
+    constructor(public router: Router) {}
+    login() {
+        //TODO: add actual login or register at a later time
+        //maybe login with google account?? makes life easier
+        this.router.navigate(['/openJukeboxes']);
+    }
 }
