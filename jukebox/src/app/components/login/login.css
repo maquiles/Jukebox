@@ -4,6 +4,7 @@
     margin: 0 auto;
     margin-top: 80px;
     border: 1px solid;    /* 700 */
+    border-radius: 25px;
 }
 
 .username-password {
@@ -22,12 +23,14 @@
     width: 100%;
     font-size: 18px;
     color: #000000;
+    border-radius: 25px;
 }
 
 .password input {
     width: 100%;
     font-size: 18px;
     color: #000000;
+    border-radius: 25px;
 }
 
 .login-button {
@@ -46,6 +49,7 @@
     font-family: "Roboto";
     box-shadow: none;
     border: none;
+    border-radius: 25px;
 }
 
 .login-button button:focus {
