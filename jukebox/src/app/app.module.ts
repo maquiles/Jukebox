@@ -7,6 +7,10 @@ import { HttpModule } from '@angular/http';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { MenuItem } from 'primeng/primeng';
+import { MenuModule } from 'primeng/primeng';
+import { TabMenuModule } from 'primeng/primeng';
+
 import { AppComponent } from './app.component';
 import { CreateJukeboxComponent } from './components/createJukebox/createJukebox';
 import { HeaderComponent } from './components/header/header';
@@ -34,7 +38,8 @@ import { SavedJukeboxesComponent } from './components/savedJukeboxes/savedJukebo
     routing,
     BrowserAnimationsModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    TabMenuModule
   ],
   providers: [
     //not at this point yet, no backend
