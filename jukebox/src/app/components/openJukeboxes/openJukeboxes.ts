@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
     styleUrls: ['./openJukeboxes.css']
 })
 export class OpenJukeboxesComponent {
-    open: number[] = [];
+    open: number[] = [1, 2, 3, 4, 5];
     constructor(public router:Router) { 
         //TODO: get all open jukeboxes for user
     }
