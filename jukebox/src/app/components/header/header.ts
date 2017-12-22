@@ -11,11 +11,11 @@ import { TabMenuModule } from 'primeng/primeng';
 })
 export class HeaderComponent {
     items: MenuItem[] = [
-        {label: 'Log In', icon: ''},
-        {label: 'Profile', icon: ''},
-        {label: 'Notifications', icon: ''},
-        {label: 'Open Jukeboxes', icon: ''},
-        {label: 'Saved Jukeboxes', icon: ''}
+        {label: 'Log In', icon: 'fa-at'},
+        {label: 'Profile', icon: 'fa-user-circle-o'},
+        {label: 'Notifications', icon: 'fa-comment'},
+        {label: 'Open Jukeboxes', icon: 'fa-music'},
+        {label: 'Saved Jukeboxes', icon: 'fa-lock'}
     ]
 
     constructor() {}
