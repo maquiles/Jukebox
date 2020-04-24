@@ -1,0 +1,8 @@
+<div class="jumbo">
+  <div class="right tomster"></div>
+  <h2>Ayo Wuddup Fam?!</h2>
+</div>
+
+{{#each model as |playlist|}}
+  <PlaylistListing @class="playlist-listing" @playlist={{playlist}}></PlaylistListing>
+{{/each}}
